@@ -28,11 +28,11 @@ http://127.0.0.1:8000
 
 
 ->API Endpoints
-POST /orders -create a new order
-GET /orders -List all orders
-GET /orders{order_id} -Retrieve a special order
-PUT /orders{order_id} -update the status of an order
-GET /summary -Get summary of all orders
+1)POST /orders -create a new order
+2)GET /orders -List all orders
+3)GET /orders{order_id} -Retrieve a special order
+4)PUT /orders{order_id} -update the status of an order
+5)GET /summary -Get summary of all orders
 
 Known Limitations
 Uses in-memory storage, so data will be lost when the server restarts.
